@@ -138,3 +138,17 @@ section#botao-contato div.btn-contato button:hover {
   border-style: double;
   cursor: pointer;
 }
+
+section#sobre-sec div.sobre {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+section#sobre-sec article {
+  display: flex;
+  justify-content: center;
+  font-style: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 2rem;
+}
