@@ -38,6 +38,13 @@ nav {
   overflow-wrap: normal;
   
 }
+
+nav ul li a:hover{
+  bottom: 10%;
+  color: red;
+  box-shadow: 0 5px 0 0 #F15A29 
+}
+
 nav ul {
   display: flex;
   list-style: none;
