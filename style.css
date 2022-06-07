@@ -35,6 +35,7 @@ div {
 
 nav {
   padding-left: 80rem;
+  overflow-wrap: normal;
   
 }
 nav ul {
