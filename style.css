@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(236, 234, 234);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+header h1{
+  color: rgb(10, 9, 9);
+  padding: 1rem; 
+}
+
+header span {
+  color: blueviolet;
+}
+
+header span:hover {
+  color: red;
+}
+
+header a {
+  text-decoration: none;
+}
+
+
+div {
+  display: inline-block;
+}
+
+nav {
+  padding-left: 80rem;
+  
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  
+}
+nav ul li {
+  padding: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(16, 15, 15);
+}
+main {
+  margin: 0 10rem 0 10rem
+}
+
+section#ap div.texto-ap {
+  color: rgb(8, 8, 8);
+  padding-top: 5rem;
+}
+
+section#ap div.texto-ap h1 {
+  font-size: 3rem;
+  font-style: italic;
+  margin-bottom: 1rem;  
+}
+
+section#ap div.texto-ap p {
+  color: rgb(70, 69, 69);
+  padding-bottom: 10rem;
+}
+
+section#ap div.img-ap{
+  padding-left: 47rem;
+  
+}
+
+section#form{
+  display: flex;
+  position: relative;
+  margin-left: 36rem;
+  padding: 3rem;
+}
+form h1 {
+  text-align: center;
+  padding: 3rem;
+}
+form  {
+  width: 30%;
+  
+}
+
+form button:hover {
+  background-color: RED;
+  }
+
+form input{
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: groove 2px rgb(204, 34, 34);
+  margin: 1rem;
+}
+
+form label {
+  margin: 1rem;
+  font-weight: bold;
+  
+}
+
+form button {
+  padding: 0.7rem;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: medium;
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+section#botao-contato div.btn-contato button {
+ 
+  border: solid;
+  color: rgb(8, 8, 8);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 2rem;  
+  
+}
+section#botao-contato div.btn-contato button:hover {
+  transition-duration: 0.4s;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border-style: double;
+  cursor: pointer;
+}
