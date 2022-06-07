@@ -75,51 +75,7 @@ section#ap div.img-ap{
   
 }
 
-section#form{
-  display: flex;
-  position: relative;
-  margin-left: 36rem;
-  padding: 3rem;
-}
-form h1 {
-  text-align: center;
-  padding: 3rem;
-}
-form  {
-  width: 30%;
-  
-}
 
-form button:hover {
-  background-color: RED;
-  }
-
-form input{
-  width: 100%;
-  padding: 0.5rem;
-  font-size: 1rem;
-  border: groove 2px rgb(204, 34, 34);
-  margin: 1rem;
-}
-
-form label {
-  margin: 1rem;
-  font-weight: bold;
-  
-}
-
-form button {
-  padding: 0.7rem;
-  width: 20%;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  font-size: medium;
-  background-color: transparent;
-  font-weight: bold;
-  cursor: pointer;
-
-}
 
 section#botao-contato div.btn-contato button {
  
@@ -145,6 +101,8 @@ section#sobre-sec div.sobre {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
+  font-size: 20px;
+  font-family: cursive;
 }
 
 section#sobre-sec article {
@@ -155,3 +113,95 @@ section#sobre-sec article {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+section#ap div.texto-ap {
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section#ap div.texto-ap span{
+  color: blueviolet;
+  font-weight: bold;
+ }
+
+ section#icons div.git img {
+   display: flex;
+   width: 100px;
+   height: 100px;
+   padding-top: 2rem;
+   padding-left: 6rem;
+   
+ }
+
+ h1.redes {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 2rem;
+   padding-top: 2rem;
+   font-family: cursive;
+ }
+
+ section#icons {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 1rem;
+ }
+
+ section#icons div.face img {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding-top: 2rem;
+  padding-left: 6rem;
+ }
+
+ section#icons div.link img {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding-top: 2rem;
+  padding-left: 6rem;
+ }
+
+ section#icons div.insta img {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding-top: 2rem;
+  padding-left: 6rem;
+  
+ }
+
+ h1.habilidades-tx {
+   display: flex;
+   justify-content: center;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   font-family: cursive;
+ }
+ section#habilidades{
+   display: flex;
+   justify-content: center;
+ }
+
+ section#habilidades div.html img {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding-top: 2rem;
+  padding-left: 6rem;
+ }
+
+ section#habilidades div.css img {
+  display: flex;
+  width: 90px;
+  height: 100px;
+  padding-top: 2rem;
+  padding-left: 6rem;
+ }
+
+ section#habilidades div.js img {
+  display: flex;
+  width: 90px;
+  height: 100px;
+  padding-top: 2rem;
+    padding-left: 6rem;
+ }
