@@ -4,9 +4,11 @@
 }
 
 body {
+  background-image: url(./assets/images/back.jpg);
   background-color: rgb(236, 234, 234);
   background-repeat: no-repeat;
   background-size: 100%;
+
 }
 
 header h1{
@@ -151,4 +153,5 @@ section#sobre-sec article {
   font-style: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
