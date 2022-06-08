@@ -117,7 +117,7 @@ section#sobre-sec article {
   display: flex;
   justify-content: center;
   font-style: bold;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
